@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* COMBINATORS */
+        div>h1{
+            color: red;
+        }
+        div>p{
+            color: yellow;
+        }
+        /* ADJACENT CIVLING SELECTOR WORKS ON THE TAG THAT  COMING AFTER DIV IT WORKS ON IT NOT WORK BEFORE DIV */
+        div+h1{
+            background-color: aqua;
+        }
+        /* GENERAL CIVLING SELECTOR */
+        div~p{
+            background-color: blueviolet;
+        }
+        
+        
+        .tanya:active{
+            background-color: red;
+        }
+    
+        body{
+            margin: 0;
+
+        }
+        .menubar{
+            background-color: black;
+            padding: 15px;
+
+        }
+        .menubar a:hover{
+            background-color: brown;
+        }
+        .menubar a.active{
+            background-color: darkred;
+        }
+        .menubar a{
+            color: white;
+            text-align:center;
+            text-decoration: none;
+            padding: 15px ;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .nav{
+            background-color: black;
+            padding: 15px;
+            height: 600px;
+            width: 100px;
+            margin-top: 10px;
+
+        }
+        .nav a:hover{
+            background-color: brown;
+        }
+        .nav a.active{
+            background-color: darkred;
+        }
+        .nav a{
+            color: white;
+            text-align:center;
+            text-decoration: none;
+            padding: 15px ;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: block;
+            margin-top: 30px;
+        }
+    .menu{
+        background-color: blueviolet;
+    }
+    </style>
+</head>
+ <body><!--
+    <div>
+        <h1>Hii this is testing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic voluptatem officiis, animi rerum dolores fugiat officia dolorum suscipit ipsam optio!</p>
+        <section>
+        <h1>Hii this is testing</h1>
+    </section>
+        <h1>Hii this is testing</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla corrupti illum et delectus itaque, vero molestias. Ullam porro magni in!</p>
+        <h1>Hii this is testing</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas itaque minus beatae, earum enim facilis voluptatum! Odit ex atque voluptates!</p>
+    </div>
+<h1>HII LAPPUUUUUUUU ....</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fuga minima eum sequi commodi odio facilis! Sit, tempore ipsa? Illo.</p>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dolor hic dignissimos esse, aliquam odio culpa, harum eum vitae dolores ullam praesentium voluptate voluptatibus quae fugiat ad obcaecati deleniti aperiam perferendis! Adipisci, necessitatibus eos molestiae sapiente incidunt dignissimos provident earum?</p> -->
+<div class="menubar">
+<a href="#" class="active">HOME</a>
+<a href="#">ABOUT</a>
+<a href="#">SERVICES</a>
+<a href="#">BLOGS</a>
+</div>
+<div class="nav">
+    <a href="#" class="active">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">SERVICES</a>
+    <a href="#">BLOGS</a>
+    </div>
+    <div class="menu">
+    
+    </div>
+</body>
+</html>  

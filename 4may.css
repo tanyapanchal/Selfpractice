@@ -1,0 +1,43 @@
+/* .tanya{
+    background-color: red;
+    height: 200px;
+    width: 100%;
+}
+.A{
+    position: absolute;
+    
+    
+}
+.B{
+    position: absolute;
+}
+.C{
+    position: absolute;
+}
+.D{
+    position: absolute;
+}
+.E{
+    position: absolute;
+} */
+body{
+    background-color: rgb(106, 184, 248);
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(73, 73, 184);
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.head{
+    margin-left: 250px;
+    margin-top: -100px;
+}
