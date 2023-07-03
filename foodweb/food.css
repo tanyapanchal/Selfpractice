@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.nav{
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px;
+}
+.info{
+    margin-left: 900px;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.food{
+    width: 1000px;
+    height: 600px;
+    margin-top: 30px;
+    /* background-color: blueviolet; */
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.container{
+    background-color: antiquewhite;
+    
+    height: 30px ;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.box{
+    visibility: hidden;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    top: 750px;
+    position: absolute;
+    /* bottom: 300px; */
+
+
+}
+.container:hover .box{
+    visibility: visible;
+    
+}

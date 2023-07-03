@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+
+    }
+    .nav{
+        background-color: black;
+        height: 50px;
+    }
+    a{
+        text-decoration: none;
+        float: right;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+    a:hover{
+        border: white 2px solid;
+    }
+    .container{
+        margin-right: 20px;
+    }
+   .ball{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    border-radius: 50%;
+    animation-name: bl;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes bl{
+    from{
+        margin-left: 900px;
+        
+    }
+    to{
+        margin-left: -900px;
+        
+    }
+   }
+   
+   .box{
+     margin-top: 10px;
+      height: 300px;
+      width: 700px;
+      border: black 2px solid;
+   }
+   img{
+    height: 200px;
+    width: 200px;
+   }
+   .b1{
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    border: black 2px solid;
+    text-align: center;
+    margin-left: 30px;
+   }
+   .b2{
+    height: 250px;
+    width: 200px;
+    border: black 2px solid;
+    margin-left: 240px;
+    margin-top: -254px;
+    text-align: center;
+
+   }
+   .b3{
+    height: 250px;
+    width: 200px;
+    border: black 2px solid;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: -254px;
+   }
+   @media screen and (max-width:450px){
+    img{
+        height: 400px;
+        width: 400px;
+    }
+    .box{
+        border: none;
+    }
+    .b1{
+        height: 450px;
+    width: 400px;
+    }
+    
+    .b2{
+       margin-top: 10px;
+       margin-left: 30px;
+       height: 250px;
+    width: 200px;
+    
+    }
+    .b3{
+        height: 450px;
+    width: 400px;
+        margin-top: 230px;
+       margin-left: 30px;
+    }
+
+   }
+   .shd{
+    text-shadow: 5px 5px 2px grey, 3px 4px 3px blue;
+   }
+   .ref{
+      -webkit-box-reflect: right  ;
+      
+   }
+   .input{
+    padding: 10px;
+    margin-left: 80px;
+   }
+   
+</style>
+<body>
+    <div class="nav">
+        <div class="container">
+          <a href="#"> Conatct </a>
+          <a href="#"> Services </a>
+          <a href="#"> About </a>
+          <a href="#"> Home </a>
+          
+        </div>
+    </div>
+    <hr>
+    <!-- 2. Bouncing Ball -->
+    <div class="ball"></div>
+    <hr>
+    <!-- 3. Image gallery -->
+       <div class="box">
+        
+        <div class="b1"> <img src="/sunflower.jpg" alt="">
+            <h3>Image 1</h3></div>
+         <div class="b2"> <img src="/orchid.jpg" alt="">
+            <h3>Image 2</h3></div>
+          <div class="b3"> <img src="/tulip.jpg" alt="">
+            <h3>Image 3</h3></div>
+        
+       
+       </div>
+       <hr>
+       <!-- 4. Media query makes the websites responsive in all devices.
+               with the help of medi query you can change the view of site as sown according to devices by
+            changing its margin, padding, height, width etc.   -->
+
+
+            <!-- 5.  -->
+        <h1 class="shd">HII MY NAME IS TANYA....</h1>    
+        <hr>
+        <!-- 6 -->
+        <img src="/PORTFOLIO/image1.jpg" alt="" class="ref">
+        <hr>
+        <!-- 7 Pseudoclass used to add  styles to selectors. there is :: used to define a pseudoclass to apply styles on the element.  -->
+        <!-- 8 -->
+        <input type="text">
+
+</body>
+</html>

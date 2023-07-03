@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    </link>
+    <style>
+        body{
+            margin: 0;
+            
+        }
+        /* NAVBAR */
+
+        .nav{
+            display: flex;
+            background-color: rgb(83, 83, 255);
+            width: 100%;
+            height: 70px;
+            position: fixed;
+            justify-content: center;
+        
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a:hover{
+            color:black;
+            border-bottom: 3px black solid;
+        }
+        i{
+            color: white;
+            font-size: 30px;
+            margin-top: 6px;
+        }
+        input{
+            height: 20px;
+            width: 180px;
+            margin-top: 12px;
+            margin-left: 50px;
+        }
+        .container{
+            height: 600px;
+            background-color:rgb(83, 83, 255);
+            width: 100%;
+            display: flex;
+            align-items: center;
+          justify-content: space-around;
+
+            
+        }
+        .box{
+          background-color: rgb(252, 229, 229); 
+          align-items: center;
+          width:400px ;
+          height: 500px;
+          
+          
+            
+        }
+        img{
+            height: 350px;
+            width: 300px;
+            flex-direction: row;
+            margin-top: 60px;
+            margin-left: 50px;
+            box-shadow: black 2px 5px 8px;
+            
+        }
+        img:hover{
+            box-shadow: 14px 8px 13px rgb(75, 75, 145);
+            border: 2px grey;
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            background-color: rgb(83, 83, 255);
+            color: white;
+            border: none;
+            font-size: 15px;
+            margin-left:150px;
+            margin-top: 30px;
+
+        }
+        .maincontainer{
+        display: flex;
+       gap: 10px;
+        background-color: rgb(247, 226, 226);
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+
+    }
+   h1{
+text-align: center;
+   }
+
+   .boxx{   
+            height: 300px;
+            width: 250px;
+            flex-direction: row;
+            margin-top: 20px;
+            margin-left: 20px;
+            box-shadow: black 2px 5px 8px;
+   }
+  
+   .fold{
+          background-color: rgb(252, 245, 245); 
+          align-items: center;
+          width:300px ;
+          height: 480px;
+          margin-top: 20PX;
+          
+            
+        }
+        .btn{
+            height: 40px;
+            width: 100px;
+            background-color: rgb(83, 83, 255);
+            color: white;
+            border: none;
+            font-size: 15px;
+            margin-left:100px;
+            margin-top: 30px;
+        }
+        /* CONTENT */
+        .content{
+            height: 200px;
+            width: 100%;
+            display: flex;
+            background-color:  rgb(247, 226, 226);
+            justify-content: space-around;
+        }
+        .c{
+            height: 150px;
+            width: 300px;
+            /* background-color: white; */
+            margin-top: 20px;
+            text-align: center;
+        }
+        /* SALE */
+        .discount{
+            display: flex;
+        }
+        /* LASTCONTAINER */
+
+       .lastcontainer{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        background-color:  rgb(247, 226, 226);
+        justify-content: space-around;
+        
+        
+       }
+       li{
+        padding: 2px;
+        padding-left: 10px;
+        text-align: center;
+       }
+
+       h2{
+        text-align: center;
+       }
+       .A{
+        height: 150px;
+        width: 300px;
+        align-self: center;
+       }
+       .mail{
+        height: 20px;
+        width: 180px;
+        margin-top: -40px;
+        margin-left: 100px;
+       }
+       .btn2{
+        height: 40px;
+        width: 100px;
+        background-color: rgb(83, 83, 255);
+        color: white;
+        border: none;
+        font-size: 15px;
+        margin-left:100px;
+        margin-top: 20px;  
+       }
+
+    </style>
+</head>
+<body>
+  
+<!-- navbar -->
+    <div class="nav">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">SERVICES</a>
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">ELECTRONICS</a>
+        <a href="#">FOOTWEARS</a>
+        <a href="#">CONTACT</a>
+        <input type="text" placeholder="Search anything...!">
+        <a href="#">LOGIN</a>
+        <a href="#">SIGNUP</a>
+        <i><i class="fa-brands fa-cc-mastercard"></i></i>
+
+    </div>
+<!--Container  -->
+    <div class="container">
+        <div class="box box1"><img src="/PROJECT/1img.jpg" alt="">
+        <button>Shop Now</button></div>
+        <div class="box box2"><img src="img2.jpg" alt=""><button>Shop Now</button></div>
+        <div class="box box3"><img src="2img.jpg" alt=""><button>Shop Now</button></div>
+    </div>
+<!--maincontainer  -->
+    
+    <div class="maincontainer">
+                
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>24,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>21,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>24,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>23,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>27,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>22,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>29,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>21,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>26,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>29,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>22,499</h1><button class="btn">Shop Now</button></div>
+                <div class="fold"><img class="boxx" src="/PROJECT/1img.jpg" alt=""><h1>21,499</h1><button class="btn">Shop Now</button></div>   
+    
+            </div>
+<!-- CONTENT -->
+      <div class="content">
+          <div class="c"><h1>WorldWide Shopping</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, cupiditate.</p></div>
+         <div class="c"><h1>Best Offers</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, totam?</p></div>
+         <div class="c"><h1>Secure Payments</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, unde?</p></div>
+    </div>
+<!-- SALE -->
+    <div class="sale"><h1 class="discount">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1></div>
+    
+<!--lastcontainer  -->
+    <div class="lastcontainer">
+        <div class="head A"><h2>The best look anytime, anywhere.</h2></div>
+        <div class="w A" >
+            <h2>For Womens</h2>
+            <ul>
+                <li>Women Jeans</li>
+                <li>Tops and Shirts</li>
+                <li>Women jackets</li>
+                <li>Heels and Flats</li>
+                <li>Women Accessories</li>
+            </ul>
+        </div>
+        <div class="m A">
+            <h2>For Mens</h2>
+            <ul>
+                <li>Men Jeans</li>
+                <li>Tshirts and Shirts</li>
+                <li>Men jackets</li>
+                <li>Shoes and Sleepers</li>
+                <li>Men Accessories</li>
+            </ul>
+        </div>
+        <div class="s A"><h2> Subscribe</h2>
+        <input class="mail" type="text" placeholder="Enter your Email">
+    <button class="btn2">Subscribe</button></div>
+    </div>
+
+        
+            
+        
+    
+</body>
+</html>

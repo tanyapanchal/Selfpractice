@@ -1,0 +1,97 @@
+.nav{
+    background-color:   rgb(241, 85, 111);
+    width: 100%;
+    
+    padding: 10px;
+    
+    
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    /* padding-right: 30px; */
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+body{
+    margin: 0;
+}
+a:hover{
+    background-color: white;
+    color:black;
+    border-bottom: 3px black solid;
+    animation-name:example;
+    transition-duration: .5s;
+    border-radius: 20px;
+    
+    
+}
+.logo{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: -9px;
+}
+.gradient{
+    height: 400px;
+    width: 100%;
+    background-image: repeating-linear-gradient(to right,pink,rgb(13, 119, 206));
+    margin-top: -50px;
+}
+.about{
+    width:100%;
+    background-color: rgb(168, 105, 105);
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+p{
+    column-count:3;
+    column-rule:2px white solid;
+}
+.tag{
+    color: rgb(167, 59, 59);
+    font-size: 50px;
+}
+.form{
+    background-image: repeating-linear-gradient(rgb(161, 193, 219),rgb(211, 144, 144));
+    height: 350px;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -150px;
+    box-shadow: 4px 5px 8px rgb(60, 48, 71);
+    
+}
+input{
+    padding: 10px;
+    border: white 2px solid;
+    border-bottom: 2px black solid;
+    
+    /* background-image: repeating-linear-gradient(rgb(161, 193, 219),rgb(211, 144, 144)); */
+
+}
+h3{
+    margin-left: 80px;
+}
+.data{
+     text-align: center;
+     color: brown;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-right:20px ;
+    background-color: rgb(59, 131, 153);
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    
+}
